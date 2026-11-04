@@ -168,6 +168,9 @@ S = [
  # ---------- 開場 ----------
  dict(t="cover",
       notes="【講稿】各位老師午安，歡迎今年剛加入臺北市的自然老師！我是數位學習中心的周凡淇，今天下午三個小時陪大家。\n（今天是教育局發文各校、請初任自然教師參加的場次。先問一下：用過 Gemini 的舉手？用過酷AI 的舉手？依舉手情況調整節奏。）\n今天的題目是「創造自然領域老師的小幫手」：**寫一個自己的 AI 機器人／skill**，帶回課堂就能用。範例用水質檢測——國小六下「水質監測小專家」、國中水溶液與環境單元都接得上，換成你自己的單元也一樣做。"),
+ dict(t="qrpage", kicker="報到", title="先掃碼報到", img="checkin_qr_1104.png", alt="報到 QR Code",
+      lines=["用酷課 APP 掃描", "AI 教學應用：創造自然領域老師的小幫手", "2026/11/04 報到用"],
+      notes="【講稿】進場請先打開酷課 APP 掃 QR Code 報到。\n報到連結：https://cooc.tp.edu.tw/app_links/conference.html?th=a&act_uuid=58a1b0ce-1ea1-4894-9c81-3369bb8d5952"),
  dict(t="shotText", kicker="講師介紹", title="臺北市數位學習中心系統開發組　周凡淇", img="nora_photo.jpg", small=True, text=[
       "●115年國教輔導團績優輔導員",
       "●115年臺北市智慧教育菁英 行政團體優等",
