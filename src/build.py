@@ -85,6 +85,9 @@ def render(d):
     if t == "shotText":
         ps = "".join(f"<p>{e(x)}</p>" for x in d["text"])
         return f'{head(d)}<div class="st{' small' if d.get('small') else ''}"><div class="st-img"><img src="{SHOT}{d["img"]}" alt=""></div><div class="st-text">{ps}</div></div>{foot(d)}'
+    if t == "gallery":
+        figs = "".join(f'<figure><img src="{SHOT}{i}" alt=""><figcaption>{e(c)}</figcaption></figure>' for i, c in d["imgs"])
+        return f'{head(d)}<div class="gallery">{figs}</div>{foot(d)}'
     if t == "illus":
         return f'{head(d)}<div class="illus">{ill(d["ill"])}</div>{foot(d)}'
     if t == "cards":
