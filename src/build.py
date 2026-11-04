@@ -116,6 +116,8 @@ def render(d):
         return f'{head(d)}<div class="cards c{len(d["stats"])}">{cs}</div>{foot(d)}'
     if t == "bigurl":
         return f'{head(d)}<a class="bigurl" href="{html.escape(d["url"])}" target="_blank" rel="noopener">{e(d["text"])}</a>{foot(d)}'
+    if t == "video":
+        return f'{head(d)}<div class="shot video"><iframe src="https://www.youtube.com/embed/{d["yt"]}" title="{e(d["title"])}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>{foot(d)}'
     if t == "quote":
         return f'{head(d)}<blockquote class="quote">{e(d["text"])}</blockquote>{foot(d)}'
     if t == "check":
