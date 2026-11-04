@@ -58,7 +58,7 @@ def render(d):
 </div></div>'''
     if t == "closing":
         return f'''<div class="cover">{ill("cover_bg")}<div class="cover-text">
-<h1><mark>回課堂，試一次！</mark></h1><div class="hand">Try It in Class</div>
+<h1><mark>回課堂，試一次！</mark></h1><div class="hand" style="font-family:inherit;font-size:52px;font-weight:700">帶一個 AI 小幫手回教室</div>
 <div class="meta">問題、作品、機器人提示詞都丟 LINE 群</div>
 <div class="who"><span>周凡淇</span></div></div></div>'''
     if t == "divider":
@@ -84,7 +84,7 @@ def render(d):
         return f'{head(d)}<div class="shot two">{figs}</div>{foot(d)}'
     if t == "shotText":
         ps = "".join(f"<p>{e(x)}</p>" for x in d["text"])
-        return f'{head(d)}<div class="st"><div class="st-img"><img src="{SHOT}{d["img"]}" alt=""></div><div class="st-text">{ps}</div></div>{foot(d)}'
+        return f'{head(d)}<div class="st{' small' if d.get('small') else ''}"><div class="st-img"><img src="{SHOT}{d["img"]}" alt=""></div><div class="st-text">{ps}</div></div>{foot(d)}'
     if t == "illus":
         return f'{head(d)}<div class="illus">{ill(d["ill"])}</div>{foot(d)}'
     if t == "cards":
