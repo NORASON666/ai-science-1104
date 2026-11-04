@@ -116,7 +116,7 @@
    "source": "田昊民 AI 課堂實務分享（2026-09）"
   }
  ],
- "31": [
+ "32": [
   {
    "title": "Gem 改成 skill：要注意的",
    "kind": "工具現況",
@@ -133,7 +133,7 @@
    "url": "https://support.google.com/gemini?p=gems_to_skills"
   }
  ],
- "32": [
+ "33": [
   {
    "title": "6 格骨架（可複製）",
    "kind": "範本",
@@ -146,7 +146,7 @@
    "source": "本簡報"
   }
  ],
- "33": [
+ "34": [
   {
    "title": "三張假紀錄表的設計",
    "kind": "素材說明",
@@ -159,7 +159,7 @@
    "source": "假資料，Codex 生成；欄位參考西湖國小水質監測紀錄表"
   }
  ],
- "34": [
+ "35": [
   {
    "title": "水質小助教：完整說明書",
    "kind": "提示詞",
@@ -173,7 +173,7 @@
    "source": "本簡報"
   }
  ],
- "46": [
+ "47": [
   {
    "title": "酷AI 智慧學伴",
    "kind": "工具",
@@ -186,7 +186,7 @@
    "source": "酷AI 手冊重點；酷AI 上課模式體驗拆解（2026-09-18）；10/2 籌備會"
   }
  ],
- "48": [
+ "49": [
   {
    "title": "巡組時最常見的三個卡點",
    "kind": "助教提示",
@@ -199,7 +199,7 @@
    "source": "本簡報"
   }
  ],
- "50": [
+ "51": [
   {
    "title": "酷課師認證與課程包",
    "kind": "制度",
@@ -241,7 +241,7 @@
    "source": "本簡報"
   }
  ],
- "36": [
+ "37": [
   {
    "title": "這 7 張學習單從哪裡來、怎麼去識別",
    "kind": "素材說明",
@@ -254,7 +254,7 @@
    "source": "西湖國小校訂生態課程（課程評鑑附件）"
   }
  ],
- "37": [
+ "38": [
   {
    "title": "讀學習單提示詞",
    "kind": "提示詞",
@@ -269,7 +269,7 @@
    "source": "本簡報"
   }
  ],
- "47": [
+ "48": [
   {
    "title": "四個機器人點子對到哪裡",
    "kind": "延伸",
@@ -282,7 +282,7 @@
    "source": "子計畫 2 議程與實施計畫；西湖國小校訂生態課程"
   }
  ],
- "54": [
+ "55": [
   {
    "title": "Gemini 工具使用限制",
    "kind": "工具現況",
@@ -297,7 +297,7 @@
    "url": "https://support.google.com/gemini/answer/16275805"
   }
  ],
- "55": [
+ "56": [
   {
    "title": "引導式學習",
    "kind": "工具",
@@ -311,7 +311,7 @@
    "url": "https://support.google.com/gemini/answer/16448384"
   }
  ],
- "56": [
+ "57": [
   {
    "title": "建立圖像",
    "kind": "工具",
@@ -326,7 +326,7 @@
    "url": "https://support.google.com/gemini/answer/14286560"
   }
  ],
- "57": [
+ "58": [
   {
    "title": "創作音樂",
    "kind": "工具",
@@ -340,7 +340,7 @@
    "url": "https://support.google.com/gemini/answer/16901237"
   }
  ],
- "58": [
+ "59": [
   {
    "title": "Deep Research",
    "kind": "工具",
@@ -354,7 +354,7 @@
    "url": "https://support.google.com/gemini/answer/15719111"
   }
  ],
- "59": [
+ "60": [
   {
    "title": "Gemini Notebook（原 NotebookLM）",
    "kind": "工具",
@@ -370,7 +370,7 @@
    "url": "https://support.google.com/gemininotebook/answer/16164461"
   }
  ],
- "63": [
+ "64": [
   {
    "title": "日曆串接的前提",
    "kind": "工具",
@@ -384,7 +384,7 @@
    "source": "新路國小研習 P19–P20"
   }
  ],
- "64": [
+ "65": [
   {
    "title": "口述備課提示詞",
    "kind": "提示詞",
@@ -397,7 +397,7 @@
    "source": "新路國小研習 P22 改寫"
   }
  ],
- "65": [
+ "66": [
   {
    "title": "分級改寫提示詞",
    "kind": "提示詞",
@@ -409,7 +409,7 @@
    "source": "新路國小研習 P24 改寫"
   }
  ],
- "42": [
+ "43": [
   {
    "title": "試紙／試劑比色怎麼判讀",
    "kind": "概念",
@@ -427,7 +427,7 @@
    "url": "https://commons.wikimedia.org/wiki/File:Universal_indicator_paper_for_the_measurement_of_acidity_or_alkalinity_(pH_indicator).jpg"
   }
  ],
- "43": [
+ "44": [
   {
    "title": "比色判讀提示詞",
    "kind": "提示詞",
@@ -440,7 +440,7 @@
    "source": "本簡報"
   }
  ],
- "30": [
+ "31": [
   {
    "title": "代理式 AI 是什麼",
    "kind": "概念",
