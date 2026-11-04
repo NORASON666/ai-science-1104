@@ -50,17 +50,17 @@ def render(d):
     if t == "cover":
         return f'''<div class="cover">{ill("cover_bg")}
 <div class="cover-text">
-<div class="org">115 科學與創新子計畫 2｜酷AI 科創酷課師養成坊（二）</div>
-<h1>AI 當<mark>水質小助教</mark><br>從數據到判讀</h1>
-<div class="meta">2026.10.22　大橋國小｜自然領域輔導員</div>
+<div class="org">115 科學與創新子計畫 2｜活動三 酷AI 科學備課坊（第一場）</div>
+<h1>創造自然老師的<mark>AI 小幫手</mark><br>以水質監測為例</h1>
+<div class="meta">2026.11.04　蓬萊國小｜全市國中小自然領域教師</div>
 <div class="who"><span>臺北市數位學習教育中心 主任 <b>汪明芳</b> 校長</span></div>
-<div class="who"><span>臺北市數位學習中心 <b>周凡淇</b></span><span>協同 <b>田昊民</b> 組長</span></div>
+<div class="who"><span>臺北市數位學習中心 <b>周凡淇</b></span></div>
 </div></div>'''
     if t == "closing":
         return f'''<div class="cover">{ill("cover_bg")}<div class="cover-text">
-<h1><mark>下學期，溪邊見！</mark></h1><div class="hand">See You at the River</div>
+<h1><mark>回課堂，試一次！</mark></h1><div class="hand">Try It in Class</div>
 <div class="meta">問題、作品、機器人提示詞都丟 LINE 群</div>
-<div class="who"><span>周凡淇</span><span>田昊民 組長</span></div></div></div>'''
+<div class="who"><span>周凡淇</span></div></div></div>'''
     if t == "divider":
         return f'''<div class="divider"><div class="dv-text"><div class="kicker big">{e(d["kicker"])}</div>
 <h2 class="dv-title">{e(d["title"])}</h2><div class="dv-sub">{e(d["sub"])}</div></div>
