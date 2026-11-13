@@ -191,6 +191,12 @@ S = [
       notes="【講稿】先簡單介紹自己。（內容取自 Canva「2026-9-30 新路國小」p2）"),
  dict(t="qrpage", kicker="研習社群", title="先加入 LINE 群組", img="line_group_qr_1113.jpg", video="route_1113.mp4",
       notes="【講稿】請先掃 QR Code 加入群組，等一下第一個活動就要在群組裡丟點子。\n（隨時要再秀 QR Code：按 Q 或上方「QR」按鈕）"),
+ dict(t="cards", kicker="下課順路吃", title="寧夏夜市兩家老店", cols=2, cards=[
+      ("圓環邊蚵仔煎", "寧夏路 46 號｜招牌蚵仔煎蚵仔多、邊緣煎得酥\n也有蒜泥乾蚵、米糕、蛤仔湯", "米其林必比登推薦"),
+      ("豆花莊", "寧夏路 49 號｜古早味豆花，花生、檸檬口味熱門\n配料有粉粿、芋圓、紅豆", "寧夏夜市旁的老字號")],
+      foot="從蓬萊國小走路就到；營業時間、價格以現場為準",
+      src="鏡週刊、TVBS 食尚玩家等報導（2024–2026）",
+      notes="【講稿】下課後如果還有時間，學校旁邊就是寧夏夜市，推薦兩家：圓環邊蚵仔煎是必比登推薦，豆花莊是老字號豆花，兩家就在寧夏路上、斜對面。\n圓環邊蚵仔煎：https://www.google.com/maps/place/%E5%9C%93%E7%92%B0%E9%82%8A%E8%9A%B5%E4%BB%94%E7%85%8E/@25.0564052,121.515281,19z\n豆花莊：https://www.google.com/maps/place/%E8%B1%86%E8%8A%B1%E8%8E%8A/@25.057382,121.5155865,19z"),
  dict(t="bigurl", kicker="研習資料", title="今天的雲端硬碟", text="tinyurl.com/2xujgne5", url="https://tinyurl.com/2xujgne5",
       foot="範例、學習單、照片都在這裡",
       notes="【講稿】今天研習用的檔案都放在這個雲端硬碟，網址打 tinyurl.com/2xujgne5 就能打開。\n雲端硬碟：https://drive.google.com/drive/folders/1qqKr5VtyjOSNk82TeFsOG_NLDBENz0V6?usp=sharing"),
