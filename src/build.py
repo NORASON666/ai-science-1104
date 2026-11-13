@@ -92,7 +92,8 @@ def render(d):
     if t == "illus":
         return f'{head(d)}<div class="illus">{ill(d["ill"])}</div>{foot(d)}'
     if t == "cards":
-        cs = "".join(f'<div class="card"><h3>{e(h)}</h3><p>{e(b)}</p>{f"<div class=note>{e(n)}</div>" if n else ""}</div>' for h, b, n in d["cards"])
+        maps = d.get("maps", [None] * len(d["cards"]))
+        cs = "".join(f'<div class="card"><h3>{e(h)}</h3><p>{e(b)}</p>{f"<div class=note>{e(n)}</div>" if n else ""}{f"<iframe class=cardmap src={chr(34)}{e(m)}{chr(34)} loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>" if m else ""}</div>' for (h, b, n), m in zip(d["cards"], maps))
         return f'{head(d)}<div class="cards c{d["cols"]}">{cs}</div>{foot(d)}'
     if t == "redesign":
         cs = "".join(f'<div class="card rd{i}"><h3>{e(h)}</h3><p>{e(b)}</p>{f"<div class=note>{e(n)}</div>" if n else ""}</div>'
